@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/dakotabryant/node-day-1#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "cookie-parser": "^1.4.3",
+    "cookieparser": "^0.1.0",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
   }
 }
