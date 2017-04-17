@@ -16,10 +16,9 @@ app.get('/', (req, res) => {
   const cookie = req.cookies[ABTest];
   console.log(req.cookies);
   if (cookie === undefined) {
-    res.cookie(ABTest,'BUTTCOOKIES', {});
+    res.cookie(ABTest,randomAB(), {});
   }
   res.sendFile(__dirname + '/index.html')
-  //        res.cookie('cokkieName',randomNumber, { maxAge: 900000, httpOnly: true })
 
 
 })
